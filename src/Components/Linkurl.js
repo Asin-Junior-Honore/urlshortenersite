@@ -75,9 +75,13 @@ const Linkurl = () => {
         <p className="linkold"> {longurl} </p>
         <div className="copy">
           <p className="linknew">{shorturl} </p>
-          <CopyToClipboard text={shorturl} onCopy={() => setCopied(true)}>
-            <button className={copied ? "copied" : "copy-btn"}>Copy</button>
-          </CopyToClipboard>
+          {shorturl.length > 0 && (
+            <CopyToClipboard text={shorturl} onCopy={() => setCopied(true)}>
+              <button className={copied ? "copied" : "copy-btn"}>
+                {copied ? <h3>Copied to clipboard</h3> : <h4>Copy</h4>}
+              </button>
+            </CopyToClipboard>
+          )}
         </div>
       </div>
     </div>

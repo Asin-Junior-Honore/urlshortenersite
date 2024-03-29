@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Url.css";
 import burger from "../Assets/icon-hamburger.svg";
 const Navurl = () => {
@@ -7,6 +7,17 @@ const Navurl = () => {
   function handleClick() {
     setIsVisible((isVisible) => !isVisible);
   }
+  useEffect(() => {
+    if (isVisible) {
+      document.body.style.overflowY = "hidden";
+    } else {
+      document.body.style.overflowY = "auto";
+    }
+    return () => {
+      document.body.style.overflowY = "auto";
+    };
+  }, [isVisible]);
+
   let toggle = isVisible ? "active" : "";
   return (
     <div className="navwrapper">

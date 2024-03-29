@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
 }
 header {
   display: flex;
@@ -82,9 +84,6 @@ button#register-btn:hover {
   justify-content: space-between;
 }
 
-/* .write-ups {
-  /* padding-top: 5rem; */
-
 .write-ups h1 {
   line-height: 60px;
   padding-bottom: 2rem;
@@ -92,7 +91,7 @@ button#register-btn:hover {
   padding-right: 3rem;
 }
 .write-ups p {
-  padding-bottom: 2rem;
+  padding-block: 2rem;
   font-size: 16px;
   line-height: 22px;
 }
@@ -149,7 +148,6 @@ button#register-btn:hover {
   align-items: stretch;
   justify-content: center;
   width: 71%;
-  /* align-items: center; */
   border-radius: 10px;
   padding: 40px 6em;
   position: relative;
@@ -238,8 +236,7 @@ button#register-btn:hover {
   transition: all 0.4s linear;
 }
 .copy-btn:hover {
-  background: white;
-  color: black;
+  background: #3a1c4f;
   cursor: pointer;
 }
 .copied {
@@ -303,7 +300,7 @@ button#register-btn:hover {
 }
 .cards-display p {
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 21px;
 }
 div#box2 {
@@ -388,8 +385,76 @@ footer {
   cursor: pointer;
   height: 21px;
 }
+@media screen and (min-width: 1290px) {
+  .firstsection {
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+  }
+  header {
+    width: 84%;
+    margin: auto;
+  }
+  .big-picture {
+    width: 40%;
+  }
+  .write-ups {
+    width: auto;
+  }
+  .write-ups h1 {
+    line-height: 95px;
+    font-size: 85px;
+  }
+  .write-ups p {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  #start-btn {
+    width: 160px;
+    padding: 20px;
+  }
+  .link-form {
+    width: 69%;
+  }
+  .userlink {
+    width: auto;
+  }
+  .cards-container {
+    justify-content: space-around;
+  }
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .write-ups h1 {
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 1rem;
+  }
+  .write-ups p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .big-picture {
+    margin-top: -1em;
+  }
+  .link-form {
+    width: 50%;
+  }
+  .userlink {
+    width: 70%;
+  }
+  .cards-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cards-display .box-icons {
+    margin-left: -22px;
+  }
+  .navbars ul {
+    margin-left: -10px;
+  }
+}
+@media screen and (max-width: 600px) {
   .buger {
     display: block;
   }
@@ -501,8 +566,8 @@ footer {
     margin-top: 10px;
   }
   .userlink {
-    width: 70%;
-    padding: 9px 0px;
+    width: auto;
+    background: transparent;
     flex-direction: column;
     border: none;
   }
