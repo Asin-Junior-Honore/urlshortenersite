@@ -88,14 +88,13 @@ If you have any questions or feedback, feel free to reach out:
 
 ## Demo
 
-Check out a live demo of the project [here](https://your-demo-link.com).
+Check out a live demo of the project [here](https://urlshortenersite-honore.netlify.app/).
 
 ---
 
-Thanks for checking out the URL Shortener project! We hope you find it useful and easy to use. Please don't forget to star the repo if you like it! ⭐
+Thanks for checking out the URL Shortener project! I hope you find it useful and easy to use. Please don't forget to star the repo if you like it! ⭐
 
 Happy coding! 💻
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
