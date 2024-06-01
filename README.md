@@ -83,7 +83,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or feedback, feel free to reach out:
 
 - **Email**: [asinhonore823@gmail.com](mailto:asinhonore823@gmail.com)
-- **GitHub**: [your-username](https://github.com/)
+- **GitHub**: [Asin Junior Honore](https://github.com/Asin-Junior-Honore)
 
 
 ## Demo
