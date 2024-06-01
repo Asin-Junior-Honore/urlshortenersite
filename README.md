@@ -82,13 +82,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: [asinhonore823@gmail.com](mailto:asinhonore823@gmail.com)
+- **GitHub**: [your-username](https://github.com/)
 
-## Acknowledgements
-
-- [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [Create React App](https://create-react-app.dev/) - Set up a modern web app by running one command.
 
 ## Demo
 
